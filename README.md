@@ -1,4 +1,4 @@
-# 📍🌐 Python Weather Notfifier 🌦️🌍
+# 📍🌐 Python Weather Notifier 🌦️🌍
 
 Python script for automatic weather notifications every 2 hours based on your location. 🌦️📧
 
