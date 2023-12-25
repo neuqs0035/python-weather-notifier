@@ -25,7 +25,7 @@ Before running the script, ensure you have the following installed:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/bhavya416/python-weather-notifier.git
+   git clone https://github.com/neuqs0035/python-weather-notifier.git
    cd python-weather-notifier
    ```
 2. **Run Normally:**
