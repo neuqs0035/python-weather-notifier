@@ -34,6 +34,7 @@ Before running the script, ensure you have the following installed:
    ```
 
    OR
+   
    **Run In Background:**
    ```bash
    pythonw weather.py
@@ -43,3 +44,6 @@ Before running the script, ensure you have the following installed:
 
 1. Open Task Manager > Search for the task 'python' > Right-click and select 'End Task'.
 
+## Note
+
+- You Can Change Iteration Time In Code , At Line 46 and 49 In sleep() method , Enter Total Seconds Accordingly , Example For 2 hours I Have sleep(7200) 
