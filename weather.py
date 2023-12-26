@@ -14,8 +14,6 @@ while True:
             print("Coordinates not found in the response.")
             continue
 
-        print(f"User Coordinates: {user_coordinates}")
-
         url = f'https://api.tomorrow.io/v4/weather/forecast?location={user_coordinates}&apikey={api_key}'
 
         response = requests.get(url)
@@ -44,15 +42,8 @@ while True:
                         message=final_string,
                         timeout=10
                     )
-                else:
-                    print("Minutely data not found.")
-            else:
-                print("Minutely timeline not found.")
-        else:
-            print(f"Error: {response.status_code} - {response.text}")
 
         sleep(7200)
 
     except Exception as e:
-        print(f"Error: {e}")
         sleep(7200)
