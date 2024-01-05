@@ -40,6 +40,7 @@ while True:
                     notification.notify(
                         title='Weather Update',
                         message=final_string,
+                        app_icon = "weather.ico",
                         timeout=10
                     )
 
